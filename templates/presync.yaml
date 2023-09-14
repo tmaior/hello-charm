@@ -9,7 +9,7 @@ spec:
     spec:
       containers:
       - name: teste
-        image: apine:latest
+        image: bash
         command:
           - "sleep"
           - "20"
