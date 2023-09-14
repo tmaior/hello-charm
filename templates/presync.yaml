@@ -4,6 +4,7 @@ metadata:
   generateName: app-test-hook-
   annotations:
     argocd.argoproj.io/hook: PreSync
+    argocd.argoproj.io/sync-wave: "-1"
 spec:
   template:
     spec:
