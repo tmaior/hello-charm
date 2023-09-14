@@ -1,6 +1,7 @@
 # Default values for hello.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
+testeArgo: true
 hello:
   replicaCount: 1
 
@@ -21,7 +22,7 @@ hello:
     annotations: {}
     # The name of the service account to use.
     # If not set and create is true, a name is generated using the fullname template
-    name: ""
+    name: "hello"
 
   podAnnotations: {}
 
