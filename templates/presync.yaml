@@ -10,7 +10,7 @@ spec:
   template:
     spec:
       containers:
-      - name: testePre
+      - name: testepostsync
         image: bash
         command:
           - "sleep"
