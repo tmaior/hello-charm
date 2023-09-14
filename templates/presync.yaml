@@ -17,3 +17,4 @@ spec:
           - "20"
       restartPolicy: Never
   backoffLimit: 2
+{{- end -}}
