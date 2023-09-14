@@ -1,4 +1,4 @@
-{{ - if .Values.argo.tests.enabled - }}
+{{- if .Values.argo.tests.enabled -}}
 apiVersion: batch/v1
 kind: Job
 metadata:
